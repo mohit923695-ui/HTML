@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Level 5</title>
+</head>
+
+<body>
+
+    <h1>My Portfolio Website</h1>
+
+    <!-- =========================
+         1. ORDERED & UNORDERED LISTS
+         ========================= -->
+
+    <h2>1. Types of Ordered Lists</h2>
+
+    <h3>Default Ordered List</h3>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <h3>Numbers</h3>
+    <ol type="1">
+        <li>Python</li>
+        <li>C++</li>
+        <li>Java</li>
+    </ol>
+
+    <h3>Capital Alphabets</h3>
+    <ol type="A">
+        <li>Frontend</li>
+        <li>Backend</li>
+        <li>Database</li>
+    </ol>
+
+    <h3>Small Alphabets</h3>
+    <ol type="a">
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>Linux</li>
+    </ol>
+
+    <h3>Capital Roman Numbers</h3>
+    <ol type="I">
+        <li>Programming</li>
+        <li>DSA</li>
+        <li>AI/ML</li>
+    </ol>
+
+    <h3>Small Roman Numbers</h3>
+    <ol type="i">
+        <li>Web Development</li>
+        <li>Cyber Security</li>
+        <li>Cloud Computing</li>
+    </ol>
+
+    <h2>Unordered List</h2>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js</li>
+    </ul>
+
+
+    <!-- =========================
+         2. TABLE
+         ========================= -->
+
+    <h2>2. Student Performance Table</h2>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+
+        <caption>
+            <strong>B.Tech CSE Student Performance</strong>
+        </caption>
+
+        <thead>
+            <tr>
+                <th rowspan="2">S.No.</th>
+                <th rowspan="2">Student Name</th>
+                <th colspan="3">Marks</th>
+                <th rowspan="2">Result</th>
+            </tr>
+
+            <tr>
+                <th>HTML</th>
+                <th>CSS</th>
+                <th>JavaScript</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Rahul</td>
+                <td>85</td>
+                <td>80</td>
+                <td>78</td>
+                <td>Pass</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Aman</td>
+                <td>90</td>
+                <td>88</td>
+                <td>92</td>
+                <td>Pass</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Mohit</td>
+                <td>95</td>
+                <td>91</td>
+                <td>89</td>
+                <td>Pass</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+    <!-- =========================
+         3. CONTACT FORM
+         ========================= -->
+
+    <h2>3. Contact Me</h2>
+
+    <form>
+
+        <label for="name">Full Name:</label>
+        <br>
+        <input 
+            type="text" 
+            id="name" 
+            name="name"
+            placeholder="Enter your name"
+            required
+        >
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <br>
+        <input 
+            type="email" 
+            id="email" 
+            name="email"
+            placeholder="Enter your email"
+            required
+        >
+
+        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <br>
+        <input 
+            type="tel" 
+            id="phone" 
+            name="phone"
+            placeholder="Enter your phone number"
+        >
+
+        <br><br>
+
+        <label for="subject">Subject:</label>
+        <br>
+        <input 
+            type="text" 
+            id="subject"
+            name="subject"
+            placeholder="Enter subject"
+        >
+
+        <br><br>
+
+        <label for="message">Message:</label>
+        <br>
+        <textarea 
+            id="message"
+            name="message"
+            rows="6"
+            cols="40"
+            placeholder="Write your message..."
+        ></textarea>
+
+        <br><br>
+
+        <label for="resume">Upload Resume:</label>
+        <br>
+        <input 
+            type="file" 
+            id="resume"
+            name="resume"
+        >
+
+        <br><br>
+
+        <input type="submit" value="Send Message">
+        <input type="reset" value="Reset">
+
+    </form>
+
+
+    <!-- =========================
+         4. IFRAME
+         ========================= -->
+
+    <h2>4. My Learning Video</h2>
+
+    <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/OpWjt_wbV4E"
+        title="Learning Video"
+        allowfullscreen>
+    </iframe>
+
+</body>
+</html>
